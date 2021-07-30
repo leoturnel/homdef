@@ -1005,3 +1005,19 @@ NioApp = function (NioApp, $, window, document) {
 	return NioApp;
 }(NioApp, jQuery, window, document);
 /* END @iO */
+
+/*copy clipboard*/
+function copyclip() {
+  var copyText = document.getElementById("copytext");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  
+  var tooltip = document.getElementById("copybt");
+  tooltip.innerHTML = "Copied: " + copyText.value;
+}
+
+function copypop() {
+  var tooltip = document.getElementById("copybt");
+  tooltip.innerHTML = "Copy to clipboard";
+}

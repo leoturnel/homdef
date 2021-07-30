@@ -8,10 +8,10 @@
 <!-- Fav Icon  -->
 <link rel="shortcut icon" href="images/favicon.png">
 <!-- Site Title  -->
-<title>PolyDefy - Coming Soon | Truly deflationary Farm on Polygon</title>
+<title>PolyDefy | Truly deflationary Farm on Polygon</title>
 <!-- Bundle and Base CSS -->
 <link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=1930">
-<link rel="stylesheet" href="assets/css/style-azalea.css?ver=1930" id="changeTheme">
+<link rel="stylesheet" href="assets/css/style.css" id="changeTheme">
 <!-- Extra CSS -->
 <link rel="stylesheet" href="assets/css/theme.css?ver=1930">
 
@@ -19,47 +19,514 @@
 
 
 </head>
-  
+    
 
 
-    <body class="nk-body body-wider bg-theme">
+    <body class="nk-body body-wider mode-onepage">
 
 	<div class="nk-wrap">
-        <main class="nk-pages nk-pages-centered tc-light">
-            <header class="text-center py-5">
-                <a href="./" class="logo-link">
-                    <img class="comming-soon-logo" src="images/logo-s2-white.png" srcset="images/logo-s2-white2x.png 2x" alt="logo">
-                </a>
-            </header>
-            <div class="my-auto">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="co-lg-8">
-                            <div class="text-center">
-                                <div class="countdown-s3 countdown-xxl countdown-wd countdown-thin countdown mb-5" data-date="2021/07/29" data-min-text="Minutes" data-sec-text="Seconds"></div>
-                                <h2 class="title title-xl title-thin">We are launching soon<br class="d-none d-md-block">Stay Tuned!</h2>
-                                <p></p>
+		<header class="nk-header page-header is-transparent is-sticky is-shrink" id="header">
+		    <!-- Header @s -->
+            <div class="header-main">
+                <div class="header-container header-container-s1">
+                    <div class="header-wrap">
+                        <!-- Logo @s -->
+                        <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
+                            <a href="./" class="logo-link">
+                                <img class="logo-dark" src="images/logo.png" srcset="images/logo2x.png 2x" alt="logo">
+                                <img class="logo-light" src="images/logo-s2-white.png" srcset="images/logo-full-white2x.png 2x" alt="logo">
+                            </a>
+                        </div>
+
+                        <!-- Menu Toogle @s -->
+                        <div class="header-nav-toggle">
+                            <a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
+                                <div class="toggle-line">
+                                    <span></span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Menu @s -->
+                        <div class="header-navbar header-navbar-s1">
+                            <nav class="header-menu justify-content-between" id="header-menu">
+                                <ul class="menu animated remove-animation" data-animate="fadeInDown" data-delay=".75">
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#model">Mechanism</a></li>
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#farming">Farming</a></li>
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#ili">IL Insurance</a></li>
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#tokenomics">Tokenomics</a></li>
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#roadmap">Roadmap</a></li>
+                                    <li class="menu-item"><a class="menu-link nav-link" href="#faqs">Faqs</a></li>
+<!--                                    <li class="menu-item"><a class="menu-link nav-link" href="#contact">Contact</a></li>-->
+                                    <li class="menu-item has-sub">
+                                        <a class="menu-link nav-link menu-toggle" href="#">Contract</a>
+                                        <ul class="menu-sub menu-drop">
+                                            <li class="menu-item"><a class="menu-link nav-link" href="#documents">PFY</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            <!--    <ul class="menu-btns align-items-center animated remove-animation" data-animate="fadeInDown" data-delay=".85">
+                                    
+                                    <li><a href="#" class="btn btn-md btn-round btn-outline btn-auto btn-primary"><span>Join Pre-sale</span></a></li>
+                                    <li><a href="#" class="btn btn-md btn-round btn-outline btn-auto btn-primary"><span>Buy Token</span></a></li>
+                                </ul> -->
+                            </nav>
+                        </div><!-- .header-navbar @e -->
+                    </div>                                                
+                </div>
+            </div><!-- .header-main @e -->
+
+			<!-- Banner @s -->
+            <div class="header-banner bg-theme-grad-alt">
+                <div class="nk-banner">
+                    <div class="banner banner-fs banner-single banner-with-token-box-s1">
+                        <div class="ui-shape ui-shape-header ui-shape-light"></div>
+                        <div class="banner-wrap">
+                            <div class="container">
+                                <div class="row align-items-center justify-content-center">
+                                    <div class="col-sm-10 col-md-10 col-xl-9">
+                                        <div class="banner-caption tc-light text-center">
+                                            <div class="cpn-title animated" data-animate="fadeInUp" data-delay="1.25">
+                                                <h1 class="title title-xl-s2 title-semibold">PolyDefy<br>RFI, Farming, Insurance all together</h1>
+                                            </div>
+                                            <div class="cpn-text cpn-text-center">
+                                                <p class="lead animated" data-animate="fadeInUp" data-delay="1.35">The only project where all your dreams come true</p>
+                                            </div>
+                                            <div class="cpn-btns">
+                                                <ul class="btn-grp justify-content-center animated" data-animate="fadeInUp" data-delay="1.45">
+                                                    <li><a href="#" class="btn btn-md btn-round btn-with-icon btn-light toastr-buy">
+                                                        <span>Buy on QuickSwap</span> 
+                                                        <em class="icon fas fa-angle-double-right"></em>
+                                                    </a></li>
+                                                    <li><a href="#" class="btn btn-md btn-round btn-with-icon btn-light toastr-top-full">
+                                                        <span>Start Farming</span> 
+                                                        <em class="icon fas fa-angle-double-right"></em>
+                                                    </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div><!-- .col -->
+                                </div><!-- .row -->
+                            </div>
+                            <div class="banner-social-wrap text-center animated" data-animate="fadeIn" data-delay="1.55">
+                                <ul class="banner-social banner-social-vertical">
+                                    <li><a href="https://t.me/polydefy" target="_blank"><em class="fab fa-telegram-plane"></em></a></li>
+                                    <li><a href="https://twitter.com/polydefy" target="_blank"><em class="fab fa-twitter"></em></a></li>
+                                    <li><a href="https://github.com/polydefy" target="_blank"><em class="fab fa-github"></em></a></li>
+                                    <li><a href="#"><em class="fab fa-medium-m"></em></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
+                    <div class="nk-ovm mask-b mask-contain-bottom"></div>
+                </div><!-- .nk-banner -->
+                <div class="token-box token-box-s1 animated" data-animate="fadeInUp" data-delay="1.65">
+                    <div class="container">
+                        <div class="row no-gutters justify-content-center">
+                            <!-- .col  -->
+                            <div class="col-xl-7 col-md-7">
+                                <div class="token-status token-status-s1 bg-light tc-info text-center ">
+                                    <h5 class="title-sm">Contract</h5>
+                                    <input type="text" style="font-size: 14pt; text-align: center;" class="input-bordered" id="copytext" value="Contract will be published soon!" readonly><br><br>
+                                    <button onclick="copyclip()" class="btn btn-sm btn-info toastr-success">Copy</button>
+                                </div>
+                                
+                                
+                            </div><!-- .col  -->
+                        </div><!-- .row  -->
+                    </div><!-- .container  -->
                 </div>
+                
+                <!-- Place Particle Js -->
+				<div id="particles-bg" class="particles-container particles-bg"></div>
             </div>
-            <footer class="text-center py-5">
-                <ul class="social mb-4">
-                    <li><a href="https://twitter.com/polydefy"><em class="social-icon fab fa-twitter"></em></a></li>
-                    <li><a href="https://t.me/polydefy"><em class="social-icon fab fa-telegram-plane"></em></a></li>
-                    <li><a href="https://github.com/polydefy"><em class="social-icon fab fa-github"></em></a></li>
-                </ul>
-                <p class="copyright-text copyright-text-s3">© 2021 PolyDefy all rights reserved</p>
-            </footer>  
-            <div class="nk-ovm shape-i ov-h"></div> 
+            <div class="gap-5x"></div>
+            <div class="gap-10x d-md-none"></div>
+            <div class="gap-5x d-sm-none"></div>
+			<!-- .header-banner @e -->            
+		</header>
+        <main class="nk-pages">
+            <section class="section bg-white" id="model">
+                <div class="ui-shape ui-shape-s1"></div>
+                            <div class="container">
+                                <!-- Block @s -->
+                                <div class="nk-block nk-block-features-s2">
+                                    <div class="row align-items-center gutter-vr-30px">
+                                        <div class="col-md-6">
+                                            <div class="gfx">
+                                                <img src="images/sys/mechanism.png" alt="gfx">
+                                            </div>
+                                        </div><!-- .col -->
+                                        <div class="col-md-6">
+                                            <!-- Section Head @s -->
+                                            <div class="nk-block-text">
+                                                <h6 class="title title-xs title-s1 tc-primary"></h6>
+                                                <h2 class="title title-semibold">Forever Diminishing Supply</h2>
+                                                <p class="lead">With every transaction the Total Count goes down. When you buy/sell/transfer any PFY token, 10% is deducted and distributed as follows:  </p>
+                                                <div class="nk-block-text">
+                                        <ul class="list list-dot list-dot-s2">
+                                            <li>4% goes to Farming Rewards for next day.</li>
+                                            <li>1.5% goes to PFY holders.</li>
+                                            <li>2% goes to the Impermanent Loss Insurance fund.</li>
+                                            <li>2% gets burnt.</li>
+                                            <li>0.5% goes to team &amp; marketing. </li>
+                                        </ul>
+                                    </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- .row -->
+                                </div><!-- .block @e -->
+                            </div>
+            </section>
+            <!-- // -->
+            <section class="section bg-white" id="farming">
+                <div class="ui-shape ui-shape-s3"></div>
+                <div class="container">
+                    <!-- Block @s -->
+                    <div class="nk-block nk-block-about">
+                        <div class="row align-items-center gutter-vr-30px">
+                            <div class="col-lg-5 text-center text-lg-left">
+                                <div class="nk-block-text">
+                                    <h2 class="title title-semibold animated" data-animate="fadeInUp" data-delay=".1">No Minting, Profitable Farming</h2>
+                                    <p class="tc-dark animated" data-animate="fadeInUp" data-delay=".2"><strong>Every farming project mints (often, an unnatural amount of) tokens to reward the farmers. This increases Total Supply (TS). At PolyDefy, we don't mint EVER! </strong></p>
+                                    <p class="animated" data-animate="fadeInUp" data-delay=".3">The reward for farmers come from the trade volume of the previous day.  For example, if a total of 50,000 PFY were bought/sold/transferred yesterday, today the farm rewards will be 4% of 50,000 PFY, i.e. 2000 PFY. </p>
+                                    <p class="animated" data-animate="fadeInUp" data-delay=".4">The same method can be used to calculate Holder Reward, ILI fund, Burn etc. Say NO to Inflation, YES to PolyDefy. </p>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-lg-7">
+                                <div class="nk-block-img nk-block-img-s2 text-center text-lg-left animated" data-animate="fadeInUp" data-delay=".5">
+                                    <img src="images/sys/farm.png" alt="">
+                                </div>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .block @e -->
+                </div>
+            </section>
+            <!-- // -->
+            
+            <section class="section bg-light-alt" id="ili">
+                <div class="ui-shape ui-shape-s2"></div>
+                            <div class="container">
+                                <!-- Block @s -->
+                                <div class="nk-block nk-block-features-s2">
+                                    <div class="row align-items-center gutter-vr-30px">
+                                        <div class="col-md-6">
+                                            <div class="gfx">
+                                                <img src="images/sys/ili.png" alt="gfx">
+                                            </div>
+                                        </div><!-- .col -->
+                                        <div class="col-md-6">
+                                            <!-- Section Head @s -->
+                                            <div class="nk-block-text">
+                                                <h6 class="title title-xs title-s1 tc-primary">Never make IL again</h6>
+                                                <h2 class="title title-semibold">Impermanent Loss Insurance</h2>
+                                                <p class="lead">Hate to Farm because you always end up making Impermanent Loss? Not Anymore! At PolyDefy, every trade sends 2% to the Impermanent Loss Insurance (ILI) which covers you from the potential loss. </p>
+                                                <p>PolyDefy Tokenomics is carefully designed but if you still end up making IL, this fund will automatically cover your losses and  send you the amount which nullifies your loss. </p>
+                                            </div>
+                                        </div>
+                                    </div><!-- .row -->
+                                </div><!-- .block @e -->
+                            </div>
+            </section>
+            <!-- // -->
+            <section class="bg-white ov-h section align-items-center" id="tokenomics">
+
+                    <!-- Block @s -->
+
+                                <div class="container">
+                                                        <!-- Section Head @s -->
+                    <div class="section-head text-center wide-auto-sm">
+                        <h4 class="title title-semibold animated" data-animate="fadeInUp" data-delay=".1">Tokenomics</h4>
+                        
+                    </div><!-- .section-head @e -->
+                                    <!-- Block @s -->
+                                    <div class="nk-block nk-block-alocation mgb-m30 align-items-center text-center">
+                                        <div class="row">
+                                            <!-- .col -->
+                                            <div class="col-xxl">
+                                                <div class="token-alocate-item">
+                                                    <div class="token-alocate-graph">
+                                                        <span>10% TAX <br> distribution</span>
+                                                        <canvas class="chart-canvas" id="fund-alocate"></canvas>
+                                                    </div>
+                                                    <ul class="chart-data" data-canvas="fund-alocate">
+                                                        <li data-color="#15216d" data-title="Farming Rewards for next day" data-amount="4"></li>
+                                                        <li data-color="#4aa0f6" data-title="Holders Reward" data-amount="1.5"></li>
+                                                        <li data-color="#223fa8" data-title="Impermanent Loss Insurance fund" data-amount="2"></li>
+                                                        <li data-color="#72a3f4" data-title="Burnt" data-amount="2"></li>
+                                                        <li data-color="#6ad9ac" data-title="Team & Marketing" data-amount="0.5"></li>
+                                                    </ul>
+                                                </div>
+                                            </div><!-- .col -->
+                                        </div><!-- .row -->
+                                    </div><!-- .block @e -->
+                                </div>
+
+                    <!-- .section-tokensale -->
+            </section>
+            <!-- // -->
+            <section class="section bg-theme tc-light ov-h" id="roadmap">
+                <div class="container">
+                    <!-- Section Head @s -->
+                    <div class="section-head text-center wide-auto-sm">
+                        <h4 class="title title-semibold animated" data-animate="fadeInUp" data-delay=".1">Roadmap</h4>
+                        <p class="animated" data-animate="fadeInUp" data-delay=".2"></p>
+                    </div><!-- .section-head @e -->
+                    <!-- Block @s -->
+                    <div class="nk-block">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-12">
+                                <div class="roadmap-all mgb-m50 animated" data-animate="fadeInUp" data-delay=".3">
+                                    <div class="roadmap-wrap roadmap-wrap-done roadmap-wrap-s1 mb-0">
+                                        <div class="row no-gutters">
+                                            <div class="col-lg">
+                                                <div class="roadmap roadmap-s1 roadmap-done text-lg-center">
+                                                    <div class="roadmap-step roadmap-step-s1">
+                                                        <div class="roadmap-head roadmap-head-s1">
+                                                            <span class="roadmap-time roadmap-time-s1">2021 August</span>
+                                                            <span class="roadmap-title roadmap-title-s1">Launch</span>
+                                                        </div>
+                                                        <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                            <li>Fair Launch on Quickswap</li>
+                                                            <li>Core Farming</li>
+                                                            <li>CoinGecko &amp; Coinmarketcap Listing</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div><!-- .col -->
+                                            <div class="col-lg">
+                                                <div class="roadmap roadmap-s1 roadmap-done text-lg-center">
+                                                    <div class="roadmap-step roadmap-step-s1">
+                                                        <div class="roadmap-head roadmap-head-s1">
+                                                            <span class="roadmap-time roadmap-time-s1">2021 September</span>
+                                                            <span class="roadmap-title roadmap-title-s1">ILI &amp; Partnership</span>
+                                                        </div>
+                                                        <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                            <li>Impermanent Loss Insurance</li>
+                                                            <li>Partner Farming</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div><!-- .col -->
+                                            <div class="col-lg">
+                                                <div class="roadmap roadmap-s1 roadmap-done text-lg-center">
+                                                    <div class="roadmap-step roadmap-step-s1">
+                                                        <div class="roadmap-head roadmap-head-s1">
+                                                            <span class="roadmap-time roadmap-time-s1">2021 October</span>
+                                                            <span class="roadmap-title roadmap-title-s1">Exchange Listing</span>
+                                                        </div>
+                                                        <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                            <li>Official Listing on Major Dex (Expected)</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div><!-- .col -->
+                                            <div class="col-lg">
+                                                <div class="roadmap roadmap-s1 roadmap-done text-lg-center">
+                                                    <div class="roadmap-step roadmap-step-s1">
+                                                        <div class="roadmap-head roadmap-head-s1">
+                                                            <span class="roadmap-time roadmap-time-s1">2021 December</span>
+                                                            <span class="roadmap-title roadmap-title-s1">NFT</span>
+                                                        </div>
+                                                        <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                            <li>Tangible Value NFT Launch</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div><!-- .col -->
+                                        </div><!-- .row -->
+                                    </div>
+                                    <div class="roadmap-wrap roadmap-wrap-s1 mb-0">
+                                        <div class="row flex-row-reverse no-gutters">
+                                            <div class="col-lg">
+                                                <div class="roadmap roadmap-current roadmap-s1 text-lg-center">
+                                                    <div class="roadmap-step roadmap-step-s1">
+                                                        <div class="roadmap-head roadmap-head-s1">
+                                                            <span class="roadmap-time roadmap-time-s1">2022 January</span>
+                                                            <span class="roadmap-title roadmap-title-s1">Exchange Listing</span>
+                                                        </div>
+                                                        <ul class="roadmap-step-list roadmap-step-list-s1">
+                                                            <li>Launch on Major CEX (Expected)</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div><!-- .col -->
+                                        </div><!-- .row -->
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .block @e -->
+                </div>
+                <div class="nk-ovm shape-n"></div>
+            </section>
+            <!-- // -->
+            <!--<section class="section bg-theme tc-light" id="partners">
+                <div class="container">
+
+                    <!-- Block @s --
+                    <div class="nk-block block-partners">
+                        <ul class="partner-list partner-list-s2 flex-wrap">
+                            <li class="partner-logo-s2 animated" data-animate="fadeInUp" data-delay=".15"><img src="images/partners/a-xs-light.png" alt="partner"></li>
+                            <li class="partner-logo-s2 animated" data-animate="fadeInUp" data-delay=".2"><img src="images/partners/b-xs-light.png" alt="partner"></li>
+
+                        </ul>
+                    </div>
+                    <!-- Block @e --
+                </div>
+            </section>-->
+            <!-- // -->
+            <section class="section bg-white" id="faqs">
+                <div class="ui-shape ui-shape-s6"></div>
+                <div class="container">
+                    <!-- Section Head @s -->
+                    <div class="section-head text-center wide-auto-sm">
+                        <h4 class="title title-semibold animated" data-animate="fadeInUp" data-delay=".1">Frequently asked questions</h4>
+                        
+                    </div><!-- .section-head @e -->
+                    <!-- Block @s -->
+                    <div class="nk-block">
+                        <div class="row justify-content-center">
+                            <!-- .col -->
+                            <div class="col-lg-10">
+                                <div class="tab-content animated" data-animate="fadeInUp" data-delay=".2">
+                                    <div class="tab-pane fade show active" id="general-questions-07">
+                                        <div class="accordion accordion-faq" id="faq-24">
+                                            <div class="accordion-item accordion-item-s2 bg-white">
+                                                <h5 class="accordion-title accordion-title-sm" data-toggle="collapse" data-target="#faq-24-1">
+                                                    Whats the total supply of PFY tokens? 
+                                                    <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-24-1" class="collapse show" data-parent="#faq-24">
+                                                    <div class="accordion-content">
+                                                        <p>100,000 PFY. This will only go down with time. No PFY will be minted ever. We don't have any such provisions in our code.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s2 bg-white">
+                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#faq-24-2">
+                                                    Have you locked the liquidity? 
+                                                    <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-24-2" class="collapse" data-parent="#faq-24">
+                                                    <div class="accordion-content">
+                                                        <p>Yes. Check <a href="#">here</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s2 bg-white">
+                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#faq-24-3">
+                                                    Who provided the liquidity? 
+                                                    <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-24-3" class="collapse" data-parent="#faq-24">
+                                                    <div class="accordion-content">
+                                                        <p>The devs provided the initial liquidity which they provided from their own pockets.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s2 bg-white">
+                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#faq-24-4">
+                                                    How do you define ‘day’? 
+                                                    <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-24-4" class="collapse" data-parent="#faq-24">
+                                                    <div class="accordion-content">
+                                                        <p>For PFY, day starts at 07:00 GMT (UTC). Every calculation will be based on this. Please convert this to your local time.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s2 bg-white">
+                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#faq-24-5">
+                                                    Are we limited to two farms? 
+                                                    <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-24-5" class="collapse" data-parent="#faq-24">
+                                                    <div class="accordion-content">
+                                                        <p>Nope. We will introduce new farms as we make new partnerships. However, these two farms will carry the highest allocation of rewards.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s2 bg-white">
+                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#faq-24-6">
+                                                    Will there be any presale?
+                                                    <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-24-6" class="collapse" data-parent="#faq-24">
+                                                    <div class="accordion-content">
+                                                        <p>None</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s2 bg-white">
+                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#faq-24-7">
+                                                    How does the team earn? Do you hold any token? 
+                                                    <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-24-7" class="collapse" data-parent="#faq-24">
+                                                    <div class="accordion-content">
+                                                        <p>We earn only from your trades. So, we have every motivation to take this forward as we earn only when the project is active.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item accordion-item-s2 bg-white">
+                                                <h5 class="accordion-title accordion-title-sm collapsed" data-toggle="collapse" data-target="#faq-24-8">
+                                                    How is the reward transferred to farms? 
+                                                    <span class="accordion-icon accordion-icon-s2"></span>
+                                                </h5>
+                                                <div id="faq-24-8" class="collapse" data-parent="#faq-24">
+                                                    <div class="accordion-content">
+                                                        <p>This is done via a smart contract.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .block @e -->
+                </div>
+            </section>
         </main>
-    </div>
+        <footer class="nk-footer bg-light">
+                            <div class="section section-footer section-m bg-transparent ov-h">
+                                <div class="container">
+                                    <!-- Block @s -->
+                                    <div class="nk-block block-footer">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="wgs wgs-text text-center mb-3">
+                                                    <ul class="social pdb-l justify-content-center">
+                                                        <li><a href="https://t.me/polydefy" target="_blank"><em class="social-icon fab fa-telegram-plane"></em></a></li>
+                                                        <li><a href="https://twitter.com/polydefy" target="_blank"><em class="social-icon fab fa-twitter"></em></a></li>
+                                                        <li><a href="https://github.com/polydefy" target="_blank"><em class="social-icon fab fa-github"></em></a></li>
+                                                        <li><a href="#"><em class="social-icon fab fa-medium-m"></em></a></li>
+                                                        <li><a href="mailto:contact@polydefy.live"><em class="social-icon fas fa-envelope"></em></a></li>
+                                                    </ul>
+                                                    <!--<p><a href="mailto:contact@polydefy.live">contact@polydefy.live</a></p>-->
+                                                    <a href="./" class="footer-logo">
+                                                        <img src="images/logo.png" srcset="images/logo2x.png 2x" alt="logo">
+                                                    </a>
+                                                    <div class="copyright-text copyright-text-s3 pdt-m">
+                                                        <p><span class="d-sm-block">© 2021 PolyDefy all rights reserved</span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- .block @e -->
+                                </div>
+                                <div class="nk-ovm shape-s"></div>
+                            </div>
+        </footer>
+	</div>
 	
 	
 	<!-- JavaScript -->
 	<script src="assets/js/jquery.bundle.js?ver=1930"></script>
 	<script src="assets/js/scripts.js?ver=1930"></script>
-	<script src="assets/js/charts.js"></script>
+	<script src="assets/js/charts.js?ver=1930"></script>
+	<script src="assets/js/toastr.js?ver=1930"></script>
 </body>
+
 </html>
