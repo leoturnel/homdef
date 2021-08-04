@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+<head>
+	<meta charset="utf-8">
+<meta name="author" content="PolyDefy">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Truly deflationary Farm on Polygon blockchain with Impermanent Loss Protection.">
+<!-- Fav Icon  -->
+<link rel="shortcut icon" href="../images/favicon.png">
+<!-- Site Title  -->
+<title>PolyDefy | Farm Dashboard</title>
+<!-- Bundle and Base CSS -->
+<link rel="stylesheet" href="../assets/css/vendor.bundle.css?ver=1930">
+<link rel="stylesheet" href="../assets/css/style.css" id="changeTheme">
+<!-- Extra CSS -->
+<link rel="stylesheet" href="../assets/css/theme.css?ver=1930">
+
+
+
+
+</head>
+    
+
+
+    <body class="nk-body body-wider mode-onepage">
+
+	<div class="nk-wrap">
+		<header class="nk-header page-header is-transparent is-sticky is-shrink" id="header">
+		    <!-- Header @s -->
+            <div class="header-main">
+                <div class="header-container header-container-s1 ">
+                    <div class="header-wrap">
+                        <!-- Logo @s -->
+                        <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".65">
+                            <a href="../" class="logo-link">
+                                <img class="logo-dark" src="../images/logo.png" srcset="../images/logo2x.png 2x" alt="logo">
+                                <img class="logo-light" src="../images/logo-s2-white.png" srcset="../images/logo-full-white2x.png 2x" alt="logo">
+                            </a>
+                        </div>
+
+                        <!-- Menu Toogle @s -->
+                        <div class="header-nav-toggle">
+                            <a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
+                                <div class="toggle-line">
+                                    <span></span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Menu @s -->
+                        <div class="header-navbar header-navbar-s1">
+                            <nav class="header-menu justify-content-end" id="header-menu">
+                                
+                                <ul class="menu-btns align-items-center animated remove-animation" data-animate="fadeInDown" data-delay=".85">
+                                    <li><a style="display: none;" onclick="beginLogins();" target="_blank" class="user-address btn btn-md btn-round btn-outline btn-auto btn-primary"><span></span></a></li>
+                                    <li><a onclick="beginLogins();" target="_blank" class="connect-button btn btn-md btn-round btn-outline btn-auto btn-primary"><span>Connect</span></a></li>
+                                    
+                                </ul> 
+                            </nav>
+                        </div><!-- .header-navbar @e -->
+                    </div>                                                
+                </div>
+            </div><!-- .header-main @e -->
+
+			<!-- Banner @s -->
+            <div class="header-banner bg-theme-grad-alt">
+                <!-- .nk-banner -->
+                
+                
+            </div>
+			<!-- .header-banner @e -->            
+		</header>
+        <main class="nk-pages">
+            <section class="section bg-light-alt" id="">
+                
+                            <div class="container">
+                                <!-- Block @s -->
+                                <div class="nk-block nk-block-token">
+                                    <div class="row gutter-vr-30px">
+                                        
+                                        <div class="col-lg-6">
+                                            <table class="table table-token table-token-s1">
+                                                <tbody>
+                                                    
+                                                    <tr>
+                                                        <td class="table-head table-head-s1">PFY-USDC Price</td>
+                                                        <td class="table-des table-des-s1 defy-busd-price">Loading...</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="table-head table-head-s1">Total Supply</td>
+                                                        <td class="table-des table-des-s1 total-supply">Loading...</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="table-head table-head-s1">Total Burned</td>
+                                                        <td class="table-des table-des-s1 total-burned">Loading...</td>
+                                                    </tr>
+                                                    
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <table class="table table-token table-token-s1">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="table-head table-head-s1">Wallet Balance</td>
+                                                        <td class="table-des table-des-s1 user-defy">Loading...</td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td class="table-head table-head-s1">Ready To Harvest</td>
+                                                        <td class="table-des table-des-s1 harvestable">Loading...</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="table-head table-head-s1">Your PFY Value</td>
+                                                        <td class="table-des table-des-s1 wallet-balance">Loading...</td>
+                                                    </tr>
+                                                    
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div><!-- .block @e -->
+                                
+                                <!-- Block @s -->
+                                    <div class="nk-block nk-block-alocation mgb-m30">
+                                        <div class="row">
+                                            
+                                            <!----------POOL 0---------->
+                                            <div class="col-lg-6" id='pool-0'>
+                                                <div class="token-alocate-item">
+                                                    <br>
+                                                    <div class="section-head text-center wide-auto">
+                                                        <h4 class="title title-semibold">PFY-MATIC</h4>
+                                                    </div>
+                                                    <table class="table table-token">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="table-head">TVL</td>
+                                                                <td class="table-des total-pool-liq-0">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">TVL in Farm</td>
+                                                                <td class="table-des pool-liq-0">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">APR</td>
+                                                                <td class="table-des pool-apy-0">Loading...</td>
+                                                            </tr>
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="field-item">
+                                                        <label class="field-label">LP Token Balance : <a class="user-lp-0">Loading...</a></label>
+                                                        <div class="field-wrap">
+                                                            <input name="" type="text" class="input-bordered form-control deposit-input-0" oninput="updateDepositAmount(0);" placeholder="Deposit Amount" id="" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" col-xs-2">
+                                                        <button class="btn btn-outline btn-sm btn-info" onclick="maxDeposit(0)">Max</button>
+                                                    </div>
+                                                    <br>
+                                                    <ul class="row btn-grp gutter-20px gutter-vr-20px">
+                                                        <li class="col approve-button-0"><a onclick="approve(0)" class="btn btn-md  btn-info btn-outline">Approve</a></li>
+                                                        <li class="col deposit-button-0"><a onclick="deposit(0)" class="btn btn-md btn-info btn-outline"><span>Deposit</span></a></li>
+                                                    </ul>  
+                                                    <div class="sap-text"></div>
+                                                    <div class="row " >
+                                                        <div class="col-md-9 col-xs-9 ">
+                                                            <h5><strong>Pending PFY:</strong> <span class="pending-defy-0"></span></h5>
+                                                        </div>
+                                                        <div class="col-md-3 col-xs-3"  >
+                                                            <button class="btn btn-info btn-sm" onclick="harvest(0)">Harvest</button>
+                                                            <br>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="sap-text"></div>
+                                                     <table class="table table-token">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="table-head">Staked</td>
+                                                                <td class="table-des userInfo-amount-0">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">Staked Value</td>
+                                                                <td class="table-des userInfo-value-0">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">Pool Share</td>
+                                                                <td class="table-des userInfo-share-0">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">Last Action</td>
+                                                                <td class="table-des userInfo-days-0">Loading...</td>
+                                                            </tr>
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="field-item">
+                                                        
+                                                        <div class="field-wrap">
+                                                            <input name="" type="text" class="input-bordered form-control withdraw-input-0" oninput="updateWithdrawAmount(0);" placeholder="Withdraw Amount" id="" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-2">
+                                                        <button class="btn btn-outline btn-sm btn-info" onclick="maxWithdraw(0)">Max</button>
+                                                    </div>
+                                                    <br>
+                                                    <ul class="row btn-grp gutter-20px gutter-vr-20px">
+                                                        
+                                                        <li class="col deposit-button-0"><a onclick="withdraw(0)" class="btn btn-md btn-info btn-outline"><span>Withdraw</span></a></li>
+                                                    </ul> 
+                                                </div>
+                                            </div><!-- .col -->
+                                            <!----------POOL 0---------->
+                                            
+                                            <!----------POOL 1---------->
+                                            <div class="col-lg-6" id='pool-1'>
+                                                <div class="token-alocate-item">
+                                                    <br>
+                                                    <div class="section-head text-center wide-auto">
+                                                        <h4 class="title title-semibold">PFY-USDC</h4>
+                                                        
+                                                    </div>
+                                                    <table class="table table-token">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="table-head">TVL</td>
+                                                                <td class="table-des total-pool-liq-1">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">TVL in Farm</td>
+                                                                <td class="table-des pool-liq-1">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">APR</td>
+                                                                <td class="table-des pool-apy-1">Loading...</td>
+                                                            </tr>
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="field-item">
+                                                        <label class="field-label">LP Token Balance : <a class="user-lp-1">Loading...</a></label>
+                                                        <div class="field-wrap">
+                                                            <input name="" type="text" class="input-bordered form-control deposit-input-1" oninput="updateDepositAmount(1);" placeholder="Deposit Amount" id="" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" col-xs-2">
+                                                        <button class="btn btn-outline btn-sm btn-info" onclick="maxDeposit(1)">Max</button>
+                                                    </div>
+                                                    <br>
+                                                    <ul class="row btn-grp gutter-20px gutter-vr-20px">
+                                                        <li class="col approve-button-1"><a onclick="approve(1)" class="btn btn-md  btn-info btn-outline">Approve</a></li>
+                                                        <li class="col deposit-button-1"><a onclick="deposit(1)" class="btn btn-md btn-info btn-outline"><span>Deposit</span></a></li>
+                                                    </ul>  
+                                                    <div class="sap-text"></div>
+                                                    <div class="row " >
+                                                        <div class="col-md-9 col-xs-9 ">
+                                                            <h5><strong>Pending PFY:</strong> <span class="pending-defy-1"></span></h5>
+                                                        </div>
+                                                        <div class="col-md-3 col-xs-3"  >
+                                                            <button class="btn btn-info btn-sm" onclick="harvest(1)">Harvest</button>
+                                                            <br>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="sap-text"></div>
+                                                     <table class="table table-token">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="table-head">Staked</td>
+                                                                <td class="table-des userInfo-amount-1">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">Staked Value</td>
+                                                                <td class="table-des userInfo-value-1">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">Pool Share</td>
+                                                                <td class="table-des userInfo-share-1">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">ILI Status</td>
+                                                                <td class="table-des userInfo-days-1">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">Initial Value</td>
+                                                                <td class="table-des userInfo-depVal-1">Loading...</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="table-head">ILI PFY</td>
+                                                                <td class="table-des userInfo-extra-1">Loading...</td>
+                                                            </tr>
+                                                            
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="field-item">
+                                                        
+                                                        <div class="field-wrap">
+                                                            <input name="" type="text" class="input-bordered form-control withdraw-input-1 " oninput="updateWithdrawAmount(1);" placeholder="Withdraw Amount" id="" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-2">
+                                                        <button class="btn btn-outline btn-sm btn-info" onclick="maxWithdraw(1)">Max</button>
+                                                    </div>
+                                                    <br>
+                                                    <ul class="row btn-grp gutter-20px gutter-vr-20px">
+                                                        
+                                                        <li class="col deposit-button-1"><a onclick="withdraw(1)" class="btn btn-md btn-info btn-outline"><span>Withdraw</span></a></li>
+                                                    </ul> 
+                                                </div>
+                                            </div><!-- .col -->
+                                            <!----------POOL 1---------->
+                                        </div><!-- .row -->
+                                    </div><!-- .block @e -->
+                                
+                            
+                </div>
+            </section>
+            <!-- // -->
+        </main>
+        <footer class="nk-footer bg-light">
+                            <div class="section section-footer section-m bg-transparent ov-h">
+                                <div class="container">
+                                    <!-- Block @s -->
+                                    <div class="nk-block block-footer">
+                                        <div class="row">
+                                            <div class="col">
+                                                <div class="wgs wgs-text text-center mb-3">
+                                                    <ul class="social pdb-l justify-content-center">
+                                                        <li><a href="https://t.me/polydefy" target="_blank"><em class="social-icon fab fa-telegram-plane"></em></a></li>
+                                                        <li><a href="https://twitter.com/polydefy" target="_blank"><em class="social-icon fab fa-twitter"></em></a></li>
+                                                        <li><a href="https://github.com/polydefy" target="_blank"><em class="social-icon fab fa-github"></em></a></li>
+                                                        <li><a href="https://www.reddit.com/r/polydefy/" target="_blank"><em class="social-icon fab fa-reddit-alien"></em></a></li>
+                                                        <li><a href="mailto:contact@polydefy.live"><em class="social-icon fas fa-envelope"></em></a></li>
+                                                    </ul>
+                                                    <!--<p><a href="mailto:contact@polydefy.live">contact@polydefy.live</a></p>-->
+                                                    <a href="../" class="footer-logo">
+                                                        <img src="../images/logo.png" srcset="../images/logo2x.png 2x" alt="logo">
+                                                    </a>
+                                                    <div class="copyright-text copyright-text-s3 pdt-m">
+                                                        <p><span class="d-sm-block">© 2021 PolyDefy all rights reserved</span></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- .block @e -->
+                                </div>
+                                <div class="nk-ovm shape-s"></div>
+                            </div>
+        </footer>
+	</div>
+	
+	
+	<!-- JavaScript -->
+	<script src="../assets/js/jquery.bundle.js?ver=1930"></script>
+	<script src="../assets/js/scripts.js?ver=1930"></script>
+	<script src="../assets/js/charts.js?ver=1930"></script>
+	<script src="../assets/js/toastr.js?ver=1930"></script>
+        
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/web3.min.js"></script>
+    <script src="./js/functions.js"></script>
+	<script src="./js/autoFunctions.js"></script>
+</body>
+
+</html>
