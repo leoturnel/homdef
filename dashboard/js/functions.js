@@ -1834,7 +1834,7 @@ async function userLoginAttempt(){
 		ethereum.request({ method: 'eth_accounts' }).then(function (result) {
 			if (window.ethereum && user.address !== result[0]) location.reload()
 		})
-	}, 5000)
+	}, 50000)
 
 }
 
@@ -1871,7 +1871,7 @@ function runUserStats() {
 	}
     setTimeout(() => {
         runUserStats()
-    }, 1000 * 15)
+    }, 1000 * 30)
 }
 
 // get balance of user and set it on the header
@@ -2008,9 +2008,9 @@ async function userInfo(pid){
 	if(amount > 1){
 		userInfoInt = setInterval(() => {
 			$('.userInfo-value-'+pid)[0].innerHTML =  " ~" +(amount * (pools[pid].lpTokenValueTotal*1e18) / (pools[pid].totalSupply*1e18)).toFixed(2)+"$"
-			if(!$('.my-pool-'+pid)[0])
-				/*$('.my-lp-pools')[0].innerHTML += '<option class="my-pool-'+pid+'" value="'+pid+'">' +pools[pid].name+ ': '+amount.toFixed(4)+' (~'+(amount * (pools[pid].lpTokenValueTotal*1e18) / (pools[pid].totalSupply*1e18)).toFixed(2)+'$)</option>' */
-			$('.my-pool-'+pid)[0].innerHTML = ' ' + pools[pid].name+ ': '+amount.toFixed(4)+' (~'+(amount * (pools[pid].lpTokenValueTotal*1e18) / (pools[pid].totalSupply*1e18)).toFixed(2)+'$)'
+			/*if(!$('.my-pool-'+pid)[0])
+				/*$('.my-lp-pools')[0].innerHTML += '<option class="my-pool-'+pid+'" value="'+pid+'">' +pools[pid].name+ ': '+amount.toFixed(4)+' (~'+(amount * (pools[pid].lpTokenValueTotal*1e18) / (pools[pid].totalSupply*1e18)).toFixed(2)+'$)</option>' *
+			$('.my-pool-'+pid)[0].innerHTML = ' ' + pools[pid].name+ ': '+amount.toFixed(4)+' (~'+(amount * (pools[pid].lpTokenValueTotal*1e18) / (pools[pid].totalSupply*1e18)).toFixed(2)+'$)'*/
 		}, 1000)
 	}
 	
@@ -2039,11 +2039,11 @@ async function userInfo(pid){
 			$('.userInfo-extra-'+pid)[0].innerHTML = " N/A"
 	}
 }
-function slideToFarm(pid){
+/*function slideToFarm(pid){
 	console.log($('.my-pool-'+pid)[0].value)
 	console.log(pid)
 	$('#pool-'+pid)[0].scrollIntoView();
-}
+}*/
 
 let i2 = 0
 let stakedOnly = false
